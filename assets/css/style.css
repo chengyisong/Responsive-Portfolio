@@ -1,0 +1,537 @@
+
+
+header {
+    background-color: #4aaaa5;
+    font-family: 'Lily Script One', cursive;
+    color: #ffffff;
+    border-color: #cccccc;
+    border-width: 5px;
+    padding: 15px;
+    width: 15%;
+    float: left;
+    text-align: center;    
+    margin-left: 10%;
+    font-size: 20px;
+
+
+}
+
+.top {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    z-index: 100;
+}
+
+.line1 {
+
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+    border-style: inset;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+    width: 100%;
+    clear: both;
+
+}
+
+.links {
+    float: right;
+    width: 48%;
+    margin-right: 10%;
+   
+}
+
+li a {
+    text-decoration: none;
+    width: 16%;
+    display: block;
+    text-align: center;
+    color: #777777;
+    float: right;
+    padding: 18px;
+    font-family: 'Berkshire Swash', cursive;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffebd4;
+    font-weight: bold;
+}
+
+.main {
+    width: 100%;
+    background-color:#ffffff;
+    margin: 10%;
+    margin-top: 75px;
+    margin-left: 0%;
+    overflow: auto;
+    display: block;
+    padding-bottom: 30px;
+
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/leaves-pattern.png");
+    background-repeat: repeat;
+    width: 80%;
+    margin-left: 10%;
+    
+
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    Padding-top: 0px;
+    Padding-left: 20px;
+    
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    border-style: inset;
+    border-width: 1px;
+    
+}
+
+img {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    clear: both;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 20px;
+    clear: right;
+    margin-right: 20px;
+    text-align: justify;
+
+}
+
+#name, #email, #msg, input, textarea {
+    margin-left: 20px;
+    margin-top: 5px;
+    }
+
+input {
+    margin-bottom: 15px;
+    width: 90%;
+    font-family: monospace;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    Color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 60px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    position: static;
+}
+
+#submit:defult {
+    background-color: #4aaaa5;
+    
+}
+
+#submit:hover {
+    background-color: rgb(52, 150, 146);
+    cursor: pointer;
+}
+
+#submit:active {
+    background-color: #2d7572;
+}
+
+#return_home {
+    background-color: #4aaaa5;
+    Color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 60px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    left: 130px;
+    top: 20px;
+}
+
+#return_home:defult {
+    background-color: #4aaaa5;
+    
+}
+
+#return_home:hover {
+    background-color: rgb(52, 150, 146);
+    cursor: pointer;
+}
+
+#return_home:active {
+    background-color: #2d7572;
+}
+
+#pop_up {
+    background-color: #cccccc;
+    Color: black;
+    padding: 12px 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 50%;
+    height: 13%;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: -1;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+footer {
+    width: 100%;
+    margin: 0%;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border-width: 7px 0px 0px 0px;
+    border-style: solid;
+    padding-top: 10px;
+    background-color: #666666;
+    border-color: #4daba6;
+    text-align: center;
+    color: rgb(189, 189, 189);
+    font-size: 12px;
+    font-style: italic;
+    z-index: 10;
+
+}
+
+#port1, #port2, #port3, #port4, #port5 {
+    float: left;
+    position: relative;
+    bottom: 60px;
+    height: 180px;
+    z-index: 1;
+}
+
+#port1 {
+    z-index: 5;
+}
+
+#port2{
+    z-index: 4;
+}
+
+#port3{
+    z-index: 3;
+}
+
+#port4 {
+    z-index: 2;
+}
+
+.port_name {
+    position: relative;
+    top: 180px;
+    left: 20px;
+    width: 200px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.port_name:hover {
+    background-color: #8a044d;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        margin-left: 5%;
+    }
+
+    header {
+        margin-left: 5%;
+        font-size: 25px;
+        padding: 20px 25px;
+        width: 150px;
+    }
+
+    li a {
+        width: 100px;
+        padding: 25px 10px;
+    }
+
+    .links {
+        margin-right: 5%;
+    }
+
+    #hiking {
+        width: 40%;
+        height: 20%;
+    }
+
+    .main {
+        width: 500px;
+        margin-top: 120px;
+    }
+
+    #return_home {
+        position: relative;
+        left: 70px;
+        top: 15px;
+        padding: 12px 13px;
+    }
+    
+    #pop_up {
+        position: fixed;
+        top: 30%;
+        left: 13%;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin-left: 4%;
+        width: 92%;
+    }
+
+    li a {
+        font-size: 16px;
+        width: 83px;
+    }
+
+    header {
+        font-size: 28px;
+        width: 30%;
+        margin-left: 4%;
+        padding: 21px 0px;
+        position: fixed;
+        top: 0px;
+    }
+
+    .links {
+        margin-right: 4%;
+        margin-top: 0px;
+        height: 80px;
+    }
+
+    #hiking {
+        width: 50%;
+        height: 20%;
+    }
+
+    .main {
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    #pic1, #pic2, #pic3, #pic4, #pic5 {
+        width: 312px;
+        height: 210px;
+    }
+
+    #port1, #port2, #port3, #port4, #port5 {
+        width: 312px;
+        margin-right: 40px;
+        margin-bottom: 70px;
+    }
+
+    .port_name {
+        position: relative;
+        top: 240px;
+        left: 20px;
+        width: 100%;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        font-size: 22px;
+    }
+
+    #return_home {
+        position: relative;
+        left: 130px;
+        top: 15px;
+        padding: 12px 13px;
+    }
+    
+    #pop_up {
+        position: fixed;
+        top: 25%;
+        left: 18%;
+        width: 60%;
+    }
+
+
+    input {
+        margin-bottom: 15px;
+        width: 94%;
+        font-family: monospace;
+        
+    }
+
+    #name, #email, #msg, input, textarea {
+        margin-left: 20px;
+        margin-top: 25px;
+        }
+
+    textarea {
+        width: 94%;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    body {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .top {
+        position: static;
+        height: 100px;
+        margin-left: 0px;
+    }
+
+    header {
+        font-size: 15px;
+        width: 100%;
+        margin-left:0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        position: static;
+    }
+
+    .links {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 20%;
+        height: 40px;
+    }
+
+    li a {
+        font-size: 12px;
+        display: block;
+        width: 20%;
+        padding: 10px 0px;
+        
+    }
+
+    .line1 {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        bottom: 42px;
+    }
+    
+    #hiking {
+        width: 83%;
+        height: 20%;
+    }
+
+    .main {
+        width: 90%;
+        margin-top: 15px;
+        margin-left: 5%;
+    }
+
+    #port1, #port2, #port3, #port4, #port5 {
+        width: 88%;
+        display: block;
+        clear: both;
+        margin-bottom: 50px;
+    }
+
+    #pic1, #pic2, #pic3, #pic4, #pic5 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .port_name {
+        position: relative;
+        top: 220px;
+        left: 20px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #return_home {
+        position: relative;
+        left: 20px;
+        top: -5px;
+        padding: 6px 10px;
+    }
+    
+    #pop_up {
+        position: fixed;
+        top: 35%;
+        left: 15%;
+        width: 60%;
+    }
+
+    #thank_you_msg {
+        font-size: 14px;
+    }
+
+    input {
+        margin-left: 8%;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        width: 80%;
+        font-family: monospace;
+        clear: both;
+    }
+
+    textarea {
+        margin-left: 8%;
+        width: 80%;
+        height: 150px;
+        resize: none;
+        margin-bottom: 15px;
+    }
+
+
+}

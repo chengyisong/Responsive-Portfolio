@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Carrie Song Portfolio</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" href="assets/images/cat.png" />    
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lily+Script+One|Skranji" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="top">
+            <header>Carrie Song</header>
+        
+            <ul class="links">
+                
+                    <li><a href="contact.html"><i class="fas fa-comments"></i> Contact</a></li>
+                    <li><a href="portfolio.html"><i class="fas fa-marker"></i> Portfolio</a></li>
+                    <li><a href="index.html"><i class="fas fa-home"></i> About</a></li>                
+            </ul>
+            <hr class="line1">
+        </div>
+
+        
+        
+        <div class="main">
+        <h1>Contact</h1>
+        <hr>
+            <div id="name">Name</div> 
+                <input class="input1" id="textbox1" type="text" name="name" placeholder="Your Full Name"><br>
+            
+            <div id="email">Email</div>
+                <input class="input2" id="textbox2" type="text" name="email" placeholder="Your Email Address"><br>
+
+            <div id="msg">Message</div>
+                <textarea id="subject" name="subject" placeholder="Write something..(But I won't be able to receive it until I improve my coding skills)" style="height:200px"></textarea>
+            
+            <p id="submit">Submit</p>
+        
+            <div id="pop_up">
+                <p id="thank_you_msg">Placeholder</p>
+                <a href="index.html" id="return_home">Return to Home Page</a>
+            </div>
+
+            <script>
+                document.getElementById("submit").addEventListener("click", myFunction);
+
+                function myFunction() {
+                    document.getElementById("thank_you_msg").innerHTML = "Thank you " + document.getElementById("textbox1").value + " for submitting your comments!";
+                    document.getElementById("pop_up").style.zIndex = "1";
+                    document.getElementById("submit").style.backgroundColor="grey";
+                }   
+
+            </script>
+
+        </div>
+
+        <footer> Copyright © by Carrie Song </footer>
+
+
+        
+    </body>
+
+</html>
