@@ -282,6 +282,10 @@ footer {
     background-color: #8a044d;
 }
 
+.contactInfo {
+    color: #22726e;
+}
+
 @media screen and (max-width: 980px) {
     body {
         margin-left: 5%;
