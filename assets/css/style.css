@@ -191,12 +191,12 @@ textarea {
 }
 
 #return_home:hover {
-    background-color: rgb(52, 150, 146);
+    background-color: #F7C331;
     cursor: pointer;
 }
 
 #return_home:active {
-    background-color: #2d7572;
+    background-color: rgb(253, 173, 0);
 }
 
 #pop_up {
@@ -219,7 +219,7 @@ textarea {
 footer {
     width: 100%;
     margin: 0%;
-    height: 30px;
+    height: 50px;
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -227,7 +227,7 @@ footer {
     border-style: solid;
     padding-top: 10px;
     background-color: #666666;
-    border-color: #6B7A8F;
+    border-color: #DCC7AA;
     text-align: center;
     color: rgb(189, 189, 189);
     font-size: 12px;
