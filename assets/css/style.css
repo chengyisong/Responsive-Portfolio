@@ -1,23 +1,20 @@
-
-
 header {
-    background-color: #4aaaa5;
+    /* background-color: #F7882F; */
     font-family: 'Lily Script One', cursive;
-    color: #ffffff;
-    border-color: #cccccc;
-    border-width: 5px;
-    padding: 15px;
-    width: 15%;
+    color:#F7882F;
+    /* border-color: white; */
+    /* border-width: 5px; */
+    padding: 10px;
+    width: 19%;
     float: left;
     text-align: center;    
-    margin-left: 10%;
-    font-size: 20px;
-
-
+    margin-left: 2%;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .top {
-    background-color: white;
+    background-color: #DCC7AA;
     width: 100%;
     position: fixed;
     top: 0px;
@@ -26,35 +23,23 @@ header {
     z-index: 100;
 }
 
-.line1 {
-
-    margin-top: 0.5em;
-    margin-bottom: 0px;
-    border-style: inset;
-    margin-left: 0px;
-    margin-right: 0px;
-    display: block;
-    width: 100%;
-    clear: both;
-
-}
-
 .links {
     float: right;
     width: 48%;
-    margin-right: 10%;
-   
+    margin-right: 2%;
+    margin-bottom: 0px;
 }
 
 li a {
     text-decoration: none;
-    width: 16%;
+    width: 22%;
     display: block;
     text-align: center;
     color: #777777;
     float: right;
-    padding: 18px;
-    font-family: 'Berkshire Swash', cursive;}
+    padding: 24px;
+    font-family: 'Berkshire Swash', cursive;
+}
 
 ul {
     list-style-type: none;
@@ -64,60 +49,69 @@ ul {
 }
 
 li a:hover:not(.active) {
-    background-color: #ffebd4;
+    background-color: #F7C331;
     font-weight: bold;
+    color: #6B7A8F;
 }
 
 .main {
-    width: 100%;
-    background-color:#ffffff;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.616);
     margin: 10%;
     margin-top: 75px;
-    margin-left: 0%;
+    margin-left: 10%;
+    padding: 20px;
     overflow: auto;
     display: block;
     padding-bottom: 30px;
-
 }
 
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    background-image: url("../images/leaves-pattern.png");
+    background-image: url("../images/oriental.png");
     background-repeat: repeat;
-    width: 80%;
+    width: 100%;
     margin-left: 10%;
-    
-
 }
 
 h1 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    Padding-top: 0px;
-    Padding-left: 20px;
-    
+    color: #6B7A8F;
+    font-family: 'Luckiest Guy', cursive;
+    Padding-top: 0px;    
+}
+
+.modal-title {
+    font-family: 'Luckiest Guy', cursive;
 }
 
 hr {
     display: block;
     margin-top: 0.5em;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-bottom: 0px;
     border-style: inset;
     border-width: 1px;
     
 }
 
-img {
+.portfolioPic  {
     float: left;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 50px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
     padding: 0;
     clear: both;
+    width: 100%;
+    height: 76%;
+}
+
+.portfolioPic:hover {
+    cursor: pointer;
+}
+
+#pic3 {
+    height: 100%;
 }
 
 p {
@@ -134,10 +128,11 @@ p {
     margin-top: 5px;
     }
 
-input {
+#textbox1, #textbox2, #subject {
     margin-bottom: 15px;
     width: 90%;
     font-family: monospace;
+    margin-left: 20px;
 }
 
 textarea {
@@ -148,34 +143,34 @@ textarea {
 }
 
 #submit {
-    background-color: #4aaaa5;
+    background-color: #6B7A8F;
     Color: white;
     padding: 12px 20px;
     border: none;
-    width: 60px;
+    width: 90px;
     margin-left: 20px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Luckiest Guy', cursive;
     text-decoration: none;
     position: static;
 }
 
 #submit:defult {
-    background-color: #4aaaa5;
+    background-color: #6B7A8F;
     
 }
 
 #submit:hover {
-    background-color: rgb(52, 150, 146);
+    background-color:#F7C331;
     cursor: pointer;
 }
 
 #submit:active {
-    background-color: #2d7572;
+    background-color: rgb(253, 173, 0);
 }
 
 #return_home {
-    background-color: #4aaaa5;
+    background-color: #6B7A8F;
     Color: white;
     padding: 12px 20px;
     border: none;
@@ -191,7 +186,7 @@ textarea {
 }
 
 #return_home:defult {
-    background-color: #4aaaa5;
+    background-color: #6B7A8F;
     
 }
 
@@ -232,7 +227,7 @@ footer {
     border-style: solid;
     padding-top: 10px;
     background-color: #666666;
-    border-color: #4daba6;
+    border-color: #6B7A8F;
     text-align: center;
     color: rgb(189, 189, 189);
     font-size: 12px;
@@ -245,8 +240,10 @@ footer {
     float: left;
     position: relative;
     bottom: 60px;
-    height: 180px;
+    height: 90%;
     z-index: 1;
+    width: 100%;
+    margin-bottom: -60px
 }
 
 #port1 {
@@ -267,23 +264,40 @@ footer {
 
 .port_name {
     position: relative;
-    top: 180px;
-    left: 20px;
+    top: 60px;
     width: 200px;
-    background-color: #4aaaa5;
+    background-color: #6B7A8F;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: normal;
     text-align: center;
     padding: 8px 0px;
+    width: 100%;
+    font-family:  'Luckiest Guy', cursive;
+}
+
+.modal-header {
+    background-color: #F7882F;
+    color: white;
 }
 
 .port_name:hover {
-    background-color: #8a044d;
+    background-color: #F7C331;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .contactInfo {
-    color: #22726e;
+    color: #6B7A8F;
+}
+
+#hiking {
+    width: 30%;
+    height: 15%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 980px) {

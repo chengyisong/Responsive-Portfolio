@@ -2,74 +2,78 @@
 
 <html lang="en-us">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Carrie Song Portfolio</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="shortcut icon" href="assets/images/cat.png" />    
-        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lily+Script+One|Skranji" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Carrie Song Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/cat.png" />
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lily+Script+One|Skranji" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-    <body>
-        <div class="top">
-            <header>Carrie Song</header>
-        
-            <ul class="links">
-                
-                    <li><a href="contact.html"><i class="fas fa-comments"></i> Contact</a></li>
-                    <li><a href="portfolio.html"><i class="fas fa-marker"></i> Portfolio</a></li>
-                    <li><a href="https://chengyisong.github.io"><i class="fas fa-home"></i> About</a></li>                
-            </ul>
-            <hr class="line1">
-        </div>
+<body>
+    <div class="top">
+        <header>Carrie Song</header>
 
-        
-        
-        <div class="main">
+        <ul class="links">
+
+            <li><a href="contact.html"><i class="fas fa-comments"></i> Contact</a></li>
+            <li><a href="portfolio.html"><i class="fas fa-marker"></i> Portfolio</a></li>
+            <li><a href="https://chengyisong.github.io"><i class="fas fa-home"></i> About</a></li>
+        </ul>
+    </div>
+
+
+
+    <div class="main">
         <h1>Contact</h1>
         <hr>
-            <p class="contactInfo"><strong>Github: </strong>@chengyisong </p>
-            <p class="contactInfo"><strong>Email: </strong>songcy0922@gmail.com</p>
-            <p class="contactInfo"><strong>Linkedin: </strong><a href="https://www.linkedin.com/in/carrie-song-21992761/" target="_blank">Carrie Song</a></p>
+        <p class="contactInfo"><strong>Github: </strong>@chengyisong </p>
+        <p class="contactInfo"><strong>Email: </strong>songcy0922@gmail.com</p>
+        <p class="contactInfo"><strong>Linkedin: </strong><a href="https://www.linkedin.com/in/carrie-song-21992761/"
+                target="_blank">Carrie Song</a></p>
 
-            <hr>
-            <p><strong>Send me a note: </strong></p>
-            
-            <div id="name">Name</div> 
-                <input class="input1" id="textbox1" type="text" name="name" placeholder="Your Full Name"><br>
-            
-            <div id="email">Email</div>
-                <input class="input2" id="textbox2" type="text" name="email" placeholder="Your Email Address"><br>
+        <hr>
+        <p><strong>Send me a note: </strong></p>
 
-            <div id="msg">Message</div>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            
-            <p id="submit">Submit</p>
-        
-            <div id="pop_up">
-                <p id="thank_you_msg">Placeholder</p>
-                <a href="index.html" id="return_home">Return to Home Page</a>
+        <div id="name">Name</div>
+        <input class="input1" id="textbox1" type="text" name="name" placeholder="Your Full Name"><br>
+
+        <div id="email">Email</div>
+        <input class="input2" id="textbox2" type="text" name="email" placeholder="Your Email Address"><br>
+
+        <div id="msg">Message</div>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <p id="submit" data-toggle="modal" data-target="#contactModal">Submit</p>
+    </div>
+
+    <footer> Copyright © by Carrie Song </footer>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactFin"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p class="portfolioOverView">Thank you for submitting your message!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="location.href='index.html'">Return to Home
+                        Page</button>
+                </div>
             </div>
-
-            <script>
-                document.getElementById("submit").addEventListener("click", myFunction);
-
-                function myFunction() {
-                    document.getElementById("thank_you_msg").innerHTML = "Thank you " + document.getElementById("textbox1").value + " for submitting your comments!";
-                    document.getElementById("pop_up").style.zIndex = "1";
-                    document.getElementById("submit").style.backgroundColor="grey";
-                }   
-
-            </script>
-
         </div>
+    </div>
 
-        <footer> Copyright © by Carrie Song </footer>
-
-
-        
-    </body>
+</body>
 
 </html>

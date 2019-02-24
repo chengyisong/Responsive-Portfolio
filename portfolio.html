@@ -2,75 +2,249 @@
 
 <html lang="en-us">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Carrie Song Portfolio</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="shortcut icon" href="assets/images/cat.png" />      
-        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lily+Script+One|Skranji" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Carrie Song Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/cat.png" />
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lily+Script+One|Skranji" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-    <body>
-        <div class="top">
-            <header>Carrie Song</header>
-        
-            <ul class="links">
-               
-                <li><a href="contact.html"><i class="fas fa-comments"></i> Contact</a></li>
-                <li><a href="portfolio.html"><i class="fas fa-marker"></i> Portfolio</a></li>
-                <li><a href="https://chengyisong.github.io"><i class="fas fa-home"></i> About</a></li>
-                    
-            </ul>
-            <hr class="line1">
+<body>
+    <div class="top">
+        <header>Carrie Song</header>
+
+        <ul class="links">
+
+            <li><a href="contact.html"><i class="fas fa-comments"></i> Contact</a></li>
+            <li><a href="portfolio.html"><i class="fas fa-marker"></i> Portfolio</a></li>
+            <li><a href="https://chengyisong.github.io"><i class="fas fa-home"></i> About</a></li>
+
+        </ul>
+    </div>
+
+
+    <div class="main">
+        <h1>Portfolio</h1>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div id="port7">
+                    <a class="noUnder" data-toggle="modal" data-target="#modal7">
+                        <h3 class="port_name">Snow-Birding</h3>
+                    </a>
+                    <img class="portfolioPic" src="assets/images/penguin.PNG"  data-toggle="modal" data-target="#modal7">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="port6">
+                    <a class="noUnder" data-toggle="modal" data-target="#modal6">
+                        <h3 class="port_name">Word Guess in Node</h3>
+                    </a>
+                    <img class="portfolioPic" src="assets/images/wordguess.jpg" data-toggle="modal" data-target="#modal6"> 
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="port5">
+                    <a class="noUnder" data-toggle="modal" data-target="#modal5">
+                        <h3 class="port_name">GIF Searcher</h3>
+                    </a>
+                    <img class="portfolioPic" src="assets/images/office.jpg" class="port_name" data-toggle="modal" data-target="#modal5">
+                </div>
+            </div>
         </div>
 
-        
-        <div class="main">
-            <h1>Portfolio</h1>
-            <hr>
-
-            <div id="port1">
-                <a href="https://chengyisong.github.io/hangman" target="_blank" class="noUnder"><h3 class="port_name">Hangman</h3></a>
-                <img id="pic1" src="assets/images/hangman.jpg" width="200px" height="150px">
+        <div class="row">
+            <div class="col-md-4">
+                <div id="port4">
+                    <a class="noUnder"  class="port_name" data-toggle="modal" data-target="#modal4">
+                        <h3 class="port_name">Bottoms Up</h3>
+                    </a>
+                    <img class="portfolioPic" src="assets/images/cocktail.jpg"  class="port_name" data-toggle="modal" data-target="#modal4">
+                </div>
             </div>
-
-            <div id="port2">
-                <a href="https://chengyisong.github.io/unit-4-game" target="_blank" class="noUnder"><h3 class="port_name">Pokemon Game</h3></a>
-                <img id="pic2" src="assets/images/pokemon.jpg" width="200px" height="150px">
+            <div class="col-md-4">
+                <div id="port2">
+                    <a class="noUnder"  class="port_name" data-toggle="modal" data-target="#modal2">
+                        <h3 class="port_name">Pokemon Game</h3>
+                    </a>
+                    <img class="portfolioPic" src="assets/images/pokemon.jpg"  class="port_name" data-toggle="modal" data-target="#modal2">
+                </div>
             </div>
-
-            <div id="port3">
-                    <a href="https://chengyisong.github.io/TriviaGame" target="_blank" class="noUnder"><h3 class="port_name">Movie Trivia</h3>
-                <img id="pic3" src="assets/images/trivia.jpg" width="200px" height="150px">
+            <div class="col-md-4">
+                <div id="port3">
+                    <a class="noUnder" class="port_name" data-toggle="modal" data-target="#modal3">
+                        <h3 class="port_name" >Movie Trivia</h3>
+                    </a>
+                    <img class="portfolioPic" src="assets/images/trivia.jpg"  class="port_name" data-toggle="modal" data-target="#modal3">
+                </div>
             </div>
-
-            <div id="port4">
-                <a href="https://chengyisong.github.io/bottomsup/" target="_blank" class="noUnder"><h3 class="port_name">Bottoms Up</h3></a>
-                <img id="pic4" src="assets/images/cocktail.jpg" width="200px" height="150px">
-            </div>
-
-            <div id="port5">
-                <a href="https://chengyisong.github.io/theofficegif/" target="_blank" class="noUnder"><h3 class="port_name">GIF Searcher</h3></a>
-                <img id="pic5" src="assets/images/office.jpg" width="200px" height="150px">
-            </div>
-
-            <div id="port6">
-                <a href="https://github.com/chengyisong/wordguess" target="_blank" class="noUnder"><h3 class="port_name">Word Guess in Node</h3></a>
-                <img id="pic6" src="assets/images/wordguess.jpg" width="200px" height="150px">
-            </div>
-
-            <div id="port7">
-                <a href="https://murmuring-retreat-47548.herokuapp.com/" target="_blank" class="noUnder"><h3 class="port_name">Snow-Birding</h3></a>
-                <img id="pic7" src="assets/images/penguin.PNG" width="200px" height="150px">
-            </div>
-
         </div>
+    </div>
 
 
-        <footer> Copyright © by Carrie Song </footer>
+    <footer> Copyright © by Carrie Song </footer>
 
-    </body>
+    <!-- Modals that will pop up -->
+    <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modalLabel7" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel7">Snow-Birding</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="portfolioOverView">Snowbirding is a simple videogame attached to a database that tracks
+                        user scores. </p>
+                    <p class="portfolioOverView"><strong>Techniques Used: </strong></p>
+                    <p class="portfolioOverView"> Node JS; MySql; Express; Handlebars; Sequelize；ES lint; Travis;
+                        bcrypt; chai; chi-http</p>
+                    <p><strong> Links:</strong> <a href="https://github.com/chengyisong/project2" target="_blank">Github
+                            Repository</a>
+                        || <a href="https://murmuring-retreat-47548.herokuapp.com/" target="_blank">Deployed App</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modalLabel6" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel6">Word Guess in Node</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="portfolioOverView">This is a word guess command-line game. The words are names of popular
+                        TV shows. </p>
+                    <p class="portfolioOverView"><strong>Techniques Used: </strong></p>
+                    <p class="portfolioOverView"> Node JS</p>
+                    <p><strong> Links:</strong> <a href="https://github.com/chengyisong/wordguess"
+                            target="_blank">Github Repository</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modalLabel5" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel5">The Office GIF Searcher</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="portfolioOverView">This is a GIF searcher for "The Office" related GIFs.</p>
+                    <p class="portfolioOverView"><strong>Techniques Used: </strong></p>
+                    <p class="portfolioOverView">Javascript; APIs</p>
+                    <p><strong> Links:</strong> <a href="https://github.com/chengyisong/theofficegif"
+                        target=" _blank">Github Repository</a> || <a href="https://chengyisong.github.io/theofficegif/"
+                            target="_blank">Deployed App</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modalLabel4" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel4">Bottoms Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="portfolioOverView">This website will enable users to search for drink recipes by name
+                            and/or ingredient. Search results will show recipes as well as current news/posts/forum posts
+                            containing the search term.</p>
+                    <p class="portfolioOverView"><strong>Techniques Used: </strong></p>
+                    <p class="portfolioOverView"> Javascript; API; Google Firebase</p>
+                    <p><strong> Links:</strong> <a href="https://github.com/chengyisong/bottomsup target="_blank">Github Repository</a>
+                        || <a href="https://chengyisong.github.io/bottomsup/" target="_blank">Deployed App</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel2">Pokemon Game</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="portfolioOverView">This is a Pokemon fighting game, where users choose a pokemon character and fight against others.</p>
+                    <p class="portfolioOverView"><strong>Techniques Used: </strong></p>
+                    <p class="portfolioOverView"> Javascript; HTML; CSS</p>
+                    <p><strong> Links:</strong> <a href="https://github.com/chengyisong/unit-4-game" target="
+                            _blank">Github Repository</a>
+                        || <a href="https://chengyisong.github.io/unit-4-game" target="_blank" >Deployed App</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel3">Movie Trivia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="portfolioOverView">This is a trivia game where users answer questions related to movies.</p>
+                    <p class="portfolioOverView"><strong>Techniques Used: </strong></p>
+                    <p class="portfolioOverView"> Javascript; HTML; CSS</p>
+                    <p><strong> Links:</strong> <a href="https://github.com/chengyisong/TriviaGame" target="
+                            _blank">Github Repository</a>
+                        || <a href="https://chengyisong.github.io/TriviaGame" target="_blank" >Deployed App</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
 
 </html>
